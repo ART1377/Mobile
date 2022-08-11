@@ -1,0 +1,26 @@
+.card-icon{
+    font-size: 2rem;
+    transition: all .7s!important;
+}
+.card-icon:hover{
+    transform: scale(1.2);
+    color: #51BC8A!important;
+}
+.card-img-overlay{
+    transition: all .8s;
+}
+.card-img-overlay:hover{
+    background-color: rgba(0, 0, 0, .6);
+}
+.card-img-overlay:hover .card-icon{
+    display: block!important;
+}
+
+.img-card{
+    max-height: 33vh;
+    width: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none!important;
+}

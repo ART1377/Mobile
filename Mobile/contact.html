@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- ***** start navbar ***** -->
+    <nav class="navbar navbar-expand-lg sticky-top opacity-75">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light me-5" href="#">
+            <i class="fa fa-smile-wink h2 my-auto d-none nav-icon-1 py-1"></i>
+            <i class="fa fa-smile h2 my-auto nav-icon-2"></i>
+          </a>
+          <button class="navbar-toggler btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="index.html">خانه</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="category.html">محصولات</a>
+              </li>
+              <li class="nav-item px-3 dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 دسته بندری محصولات
+                </a>
+                <ul class="dropdown-menu d-menu">
+                  <li><a class="dropdown-item" href="#">سامسونگ</a></li>
+                  <li><a class="dropdown-item" href="#">اپل</a></li>
+                  <li><a class="dropdown-item" href="#">شیائومی</a></li>
+                  <li><a class="dropdown-item" href="#">هواوی</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">برندهای ریگر</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" type="btn" href="contact.html">تماس با ما</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">راهنما</a>
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">راهنمای سایت</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer me-auto">
+                        <button type="button" class="btn btn-danger text-end" data-bs-dismiss="modal">بستن</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="جست و جو کنید ..." aria-label="Search">
+              <button class="btn btn-nav" type="submit">برو</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- ***** end navbar ***** -->
+
+
+    <!-- ***** start contact-main ***** -->
+    <section class="contact-main py-5">
+      <div class="container">
+        <div class="row contact-row justify-content-between">
+          <div class="col-6">
+            <form action="">
+              <div class="mb-4 mt-3">
+                <label for="email" class="form-label">ایمیل :</label>
+                <input type="text" class="form-control" id="email" placeholder="ایمیل را وارد کنید" name="email">
+              </div>
+              <div class="mb-4">
+                <label for="pwd" class="form-label">رمز عبور :</label>
+                <input type="password" class="form-control" id="pwd" placeholder="رمز عبور را وارد کنید" name="pswd">
+              </div>
+              <div class="mb-4">
+                <label for="comment">نظر :</label>
+                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="لطفا نظر خود را وارد کنید"></textarea>
+              </div>
+              <div class="form-check mb-4">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> مرا به خاطر داشته باش
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary mb-3">ثبت</button>
+              <button type="button" class="btn btn-danger mb-3">رمز عبور خود را فراموش کرده ام</button>
+            </form>
+          </div>
+          <div class="col-6 pe-0">
+            <img src="img/login.jpg" alt="" class="w-100 h-100">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** end contact-main ***** -->
+
+
+    <!-- ***** start footer ***** -->
+    <section class="footer py-5 bg-primary">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-12 col-sm-6 col-md-3 footer-col">
+            <h3>منو</h3>
+            <ul class="list-group list-group-flush footer-ul">
+              <a href="#" class="list-group-item">خانه</a>
+              <a href="#" class="list-group-item">ورود مشتریان</a>
+              <a href="#" class="list-group-item">تماس با ما</a>
+              <a href="#" class="list-group-item">محصولات</a>
+              <a href="#" class="list-group-item">ارتباظ با ما</a>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h3>مقالات ما</h3>
+            <ul class="list-group list-group-flush">
+              <a href="#" class="list-group-item">مقاله اول</a>
+              <a href="#" class="list-group-item">مقاله دوم</a>
+              <a href="#" class="list-group-item">مقاله سوم</a>
+              <a href="#" class="list-group-item">مقاله چهارم</a>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h3>ورود مشتریان</h3>
+            <ul class="list-group list-group-flush">
+              <a href="#" class="list-group-item">ثبت نام</a>
+              <a href="#" class="list-group-item">ورود</a>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h3>مقالات ما</h3>
+            <ul class="list-group list-group-flush">
+              <a href="#" class="list-group-item">مقاله اول</a>
+              <a href="#" class="list-group-item">مقاله دوم</a>
+              <a href="#" class="list-group-item">مقاله سوم</a>
+              <a href="#" class="list-group-item">مقاله چهارم</a>
+            </ul>
+          </div>
+        </div>
+        <hr class="w-75 text-light mx-auto footer-divider">
+        <div class="row text-center">
+          <div class="col-12 col-md-6">
+            <p class="text-light">
+              &copy; استفاده از مطالب سایت تنها با درج لینک مستقیم به آن مطلب مجاز است.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <a href="#"><i class="bi bi-facebook text-light px-2 footer-icon"></i></a>
+            <a href="#"><i class="bi bi-instagram text-light px-2 footer-icon"></i></a>
+            <a href="#"><i class="bi bi-google text-light px-2 footer-icon"></i></a>
+            <a href="#"><i class="bi bi-telegram text-light px-2 footer-icon"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** end footer ***** -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
+</body>
+</html>
